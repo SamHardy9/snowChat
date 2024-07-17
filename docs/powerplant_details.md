@@ -1,0 +1,25 @@
+This table contains information about power plants and their characteristics.
+
+- OBJECT_ID: Number(38,0) [Primary Key, Not Null] - Unique identifier for each record
+- PLANT_CODE: Number(38,0) - Unique code assigned to each power plant
+- PLANT_NAME: Varchar(16777216) - Name of powerplant
+- UTILITY_NAME: Varchar(16777216) - Name of the utility company operating the plant
+- SITE_ID: Number(38,0) - Identifier for the plant site
+- AIR_PI_NUMBER: Number(38,0) - Air permit identification number
+- CITY: Varchar(16777216) - City that plant is located in
+- COUNTY: Varchar(16777216) - County that plant is located in
+- STATE_NAME: Varchar(16777216) - State that the plant is located in
+- STREET_ADDRESS: Varchar(16777216) - Physical address of powerplant
+- PRIMARY_SOURCE: Varchar(16777216) - Primary energy source used by the plant
+- INSTALL_MW: Number(38,1) - Installed capacity in megawatts
+- TOTAL_MV: Number(38,0) - Total megavolt capacity
+- SOURCE_DESCRIPTION: Varchar(16777216) - Description of the energy source
+- TECHNICAL_DESCRIPTION: Varchar(16777216) - Technical details of the plant
+- SOURCE: Varchar(16777216) - Source of the data
+- PERIOD: Number(38,0) - Reporting period for the data
+- LATITUDE: Number(38,6) - Latitude of powerplant
+- LONGITUDE: Number(38,5) - Longitude of powerplant
+- EDC: Varchar(16777216) - Electric Distribution Company
+- GRID_SUPPLY: Varchar(16777216) - Information about grid supply
+- DATA_MINER_REPORT_LINK: Varchar(16777216) - Link to the data miner report
+- GLOBALID: Varchar(16777216) - Global identifier for the record
